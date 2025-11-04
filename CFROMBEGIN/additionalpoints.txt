@@ -1,0 +1,10 @@
+fflush(stdout)
+output appears immediately for buffering codes.
+
+getchar()
+When you use scanf() to read input (like a string or number), it often leaves behind a newline character (\n) in the input buffer. That leftover newline can mess up future input operations.
+while(getchar() != '\n') { }
+printf("press enter to exit");
+getchar();
+simply getchar()is used for storing and clearing error conflicts
+
