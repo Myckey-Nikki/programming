@@ -13,6 +13,6 @@ def plot_f(f):
     ax.plot_surface(X, Y, Z)
     plt.show()
 
-# min
+
 plot_f(lambda x,y: x**2 - y**2)
 
